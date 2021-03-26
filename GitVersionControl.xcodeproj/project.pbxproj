@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2CDAB32260E14C500E3B280 /* GitVersionControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CDAB1F260E14C400E3B280 /* GitVersionControlApp.swift */; };
+		E2CDAB33260E14C500E3B280 /* GitVersionControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CDAB1F260E14C400E3B280 /* GitVersionControlApp.swift */; };
+		E2CDAB34260E14C500E3B280 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CDAB20260E14C400E3B280 /* ContentView.swift */; };
+		E2CDAB35260E14C500E3B280 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CDAB20260E14C400E3B280 /* ContentView.swift */; };
+		E2CDAB36260E14C500E3B280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2CDAB21260E14C500E3B280 /* Assets.xcassets */; };
+		E2CDAB37260E14C500E3B280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2CDAB21260E14C500E3B280 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E2CDAB1F260E14C400E3B280 /* GitVersionControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitVersionControlApp.swift; sourceTree = "<group>"; };
+		E2CDAB20260E14C400E3B280 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E2CDAB21260E14C500E3B280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2CDAB26260E14C500E3B280 /* GitVersionControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitVersionControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2CDAB29260E14C500E3B280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2CDAB2E260E14C500E3B280 /* GitVersionControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitVersionControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2CDAB30260E14C500E3B280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2CDAB31260E14C500E3B280 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2CDAB23260E14C500E3B280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CDAB2B260E14C500E3B280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2CDAB19260E14C400E3B280 = {
+			isa = PBXGroup;
+			children = (
+				E2CDAB1E260E14C400E3B280 /* Shared */,
+				E2CDAB28260E14C500E3B280 /* iOS */,
+				E2CDAB2F260E14C500E3B280 /* macOS */,
+				E2CDAB27260E14C500E3B280 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2CDAB1E260E14C400E3B280 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E2CDAB1F260E14C400E3B280 /* GitVersionControlApp.swift */,
+				E2CDAB20260E14C400E3B280 /* ContentView.swift */,
+				E2CDAB21260E14C500E3B280 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E2CDAB27260E14C500E3B280 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2CDAB26260E14C500E3B280 /* GitVersionControl.app */,
+				E2CDAB2E260E14C500E3B280 /* GitVersionControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2CDAB28260E14C500E3B280 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E2CDAB29260E14C500E3B280 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		E2CDAB2F260E14C500E3B280 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E2CDAB30260E14C500E3B280 /* Info.plist */,
+				E2CDAB31260E14C500E3B280 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2CDAB25260E14C500E3B280 /* GitVersionControl (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2CDAB3A260E14C500E3B280 /* Build configuration list for PBXNativeTarget "GitVersionControl (iOS)" */;
+			buildPhases = (
+				E2CDAB22260E14C500E3B280 /* Sources */,
+				E2CDAB23260E14C500E3B280 /* Frameworks */,
+				E2CDAB24260E14C500E3B280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GitVersionControl (iOS)";
+			productName = "GitVersionControl (iOS)";
+			productReference = E2CDAB26260E14C500E3B280 /* GitVersionControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2CDAB2D260E14C500E3B280 /* GitVersionControl (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2CDAB3D260E14C500E3B280 /* Build configuration list for PBXNativeTarget "GitVersionControl (macOS)" */;
+			buildPhases = (
+				E2CDAB2A260E14C500E3B280 /* Sources */,
+				E2CDAB2B260E14C500E3B280 /* Frameworks */,
+				E2CDAB2C260E14C500E3B280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GitVersionControl (macOS)";
+			productName = "GitVersionControl (macOS)";
+			productReference = E2CDAB2E260E14C500E3B280 /* GitVersionControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2CDAB1A260E14C400E3B280 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					E2CDAB25260E14C500E3B280 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					E2CDAB2D260E14C500E3B280 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = E2CDAB1D260E14C400E3B280 /* Build configuration list for PBXProject "GitVersionControl" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2CDAB19260E14C400E3B280;
+			productRefGroup = E2CDAB27260E14C500E3B280 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2CDAB25260E14C500E3B280 /* GitVersionControl (iOS) */,
+				E2CDAB2D260E14C500E3B280 /* GitVersionControl (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2CDAB24260E14C500E3B280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2CDAB36260E14C500E3B280 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CDAB2C260E14C500E3B280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2CDAB37260E14C500E3B280 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2CDAB22260E14C500E3B280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2CDAB34260E14C500E3B280 /* ContentView.swift in Sources */,
+				E2CDAB32260E14C500E3B280 /* GitVersionControlApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CDAB2A260E14C500E3B280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2CDAB35260E14C500E3B280 /* ContentView.swift in Sources */,
+				E2CDAB33260E14C500E3B280 /* GitVersionControlApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E2CDAB38260E14C500E3B280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2CDAB39260E14C500E3B280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E2CDAB3B260E14C500E3B280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G76Z8XVG4L;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ccw.GitVersionControl;
+				PRODUCT_NAME = GitVersionControl;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2CDAB3C260E14C500E3B280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G76Z8XVG4L;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ccw.GitVersionControl;
+				PRODUCT_NAME = GitVersionControl;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2CDAB3E260E14C500E3B280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G76Z8XVG4L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ccw.GitVersionControl;
+				PRODUCT_NAME = GitVersionControl;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E2CDAB3F260E14C500E3B280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G76Z8XVG4L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ccw.GitVersionControl;
+				PRODUCT_NAME = GitVersionControl;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2CDAB1D260E14C400E3B280 /* Build configuration list for PBXProject "GitVersionControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CDAB38260E14C500E3B280 /* Debug */,
+				E2CDAB39260E14C500E3B280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2CDAB3A260E14C500E3B280 /* Build configuration list for PBXNativeTarget "GitVersionControl (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CDAB3B260E14C500E3B280 /* Debug */,
+				E2CDAB3C260E14C500E3B280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2CDAB3D260E14C500E3B280 /* Build configuration list for PBXNativeTarget "GitVersionControl (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CDAB3E260E14C500E3B280 /* Debug */,
+				E2CDAB3F260E14C500E3B280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2CDAB1A260E14C400E3B280 /* Project object */;
+}
